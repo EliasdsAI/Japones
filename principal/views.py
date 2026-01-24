@@ -1,0 +1,12 @@
+from django.shortcuts import render
+
+# Create your views here.
+
+def inicio(request):
+    return render(request, 'home.html')
+
+def historia(request):
+    return render(request, 'historia.html')
+
+def administrativo(request):
+    return render(request,'menuadm.html')
